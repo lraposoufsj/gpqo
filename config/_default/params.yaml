@@ -7,7 +7,7 @@
 
 appearance:
   theme_day: minimal
-  theme_night:
+  theme_night: minimal
   font: native
   font_size: L
 
@@ -15,10 +15,10 @@ appearance:
 
 marketing:
   seo:
-    site_type: Organization
+    site_type: EducationalOrganization
     local_business_type: ''
-    org_name: ''
-    description: 'A highly-customizable Hugo research group theme powered by Wowchemy website builder.'
+    org_name: 'GPQO - UFSJ'
+    description: 'Research Group in Organic Chemistry at the Federal University of São João del-Rei, Brazil.'
     twitter: 'GetResearchDev'
   analytics:
     google_analytics: ''
@@ -39,18 +39,18 @@ header:
     show_language: false
     show_day_night: true
     show_search: true
-    highlight_active_link: false
+    highlight_active_link: true
 
 # Site footer
 
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} GPQO - UFSJ'
     license:
-      enable: true
-      allow_derivatives: false
-      share_alike: true
-      allow_commercial: false
+      enable: false
+      # allow_derivatives: false
+      # share_alike: true
+      # allow_commercial: false
 
 # Localization
 
@@ -72,7 +72,7 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/<username>/<repository>'
+    url: 'https://github.com/lraposoufsj/gpqo'
     content_dir: content
     branch: main
   avatar:

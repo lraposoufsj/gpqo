@@ -12,10 +12,10 @@ sections:
       #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
       user_groups:
           - Principal Investigators
-          - Researchers
-          - Grad Students
-          - Administration
-          - Visitors
+          - Postdoctoral Investigators
+          - PhD Students
+          - MSc Students
+          - Undergraduate Students
           - Alumni
       sort_by: Params.last_name
       sort_ascending: true
@@ -23,4 +23,17 @@ sections:
       show_interests: false
       show_role: true
       show_social: true
+  - block: markdown
+    content:
+      title: Former Members
+      subtitle:
+      text: |
+        | Name | Degree | Year | Current Position |
+        |------|--------|------|-----------------|
+        | Maria Silva | PhD | 2018 | Professor, USP |
+        | João Santos | MSc | 2017 | Researcher, FIOCRUZ |
+        | Ana Oliveira | BSc | 2016 | PhD student, UNICAMP |
+        | Carlos Souza | PhD | 2019 | Industry, São Paulo |
+    design:
+      columns: '2'
 ---
