@@ -2,7 +2,7 @@
 title: Publications
 subtitle: ''
 
-# Listing view
+# Listing view => Can be citation, compact or card
 view: citation
 
 # Sorting

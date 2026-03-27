@@ -1,31 +1,42 @@
 ---
 title: Aline Alves da Silva
-role: PhD Graduate  # or MSc Graduate, Former Undergraduate Researcher
+role: PhD Student
 
 organizations:
-  - name: Current Institution or Company
-    url: ''
+  - name: Federal University of São João del-Rei
+    url: 'https://www.ufsj.edu.br/'
 
 superuser: false
 
-bio: Brief note on what they did in the group and where they are now.
+bio: Brief one-line research focus.
 
 interests:
   - Organic Synthesis
 
 education:
   courses:
-    - course: PhD in Chemistry
-      institution: Federal University of São João del-Rei
+    - course: MSc in Chemistry
+      institution: [Institution]
+      year: [Year]
+    - course: BSc in Chemistry
+      institution: [Institution]
       year: [Year]
 
 social:
+  - icon: envelope
+    icon_pack: fas
+    link: 'mailto:student@ufsj.edu.br'
   - icon: lattes
     icon_pack: ai
     link: 'http://lattes.cnpq.br/[lattes-id]'
+  - icon: orcid
+    icon_pack: ai
+    link: 'https://orcid.org/[orcid-id]'
 
 highlight_name: false
 
 user_groups:
-  - Alumni
+  - PhD Students
 ---
+
+Optional longer bio paragraph here. Can be left blank.
