@@ -11,7 +11,7 @@ sections:
         Research Group in
         Organic Chemistry (GPQO)
       image:
-        filename: welcome.jpg
+        filename: banner.jpg
       text: |
         <br>
         The <b>GPQO</b> is based at the Federal University of São João del-Rei (UFSJ), Brazil.
